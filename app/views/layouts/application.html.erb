@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pappcorn</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+ <header>
+  	<div class="text-center text-wite ">
+  		
+  		PRUEBA PAPPCORN
+  	</div>
+  </header>
+
+
+    <%= yield %>
+
+ 	<p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <footer class="text-center text-wite">
+    	<i></i> 2017 Andres Rojas  - Prueba PappCorn 2017
+
+    </footer>
+  </body>
+</html>
